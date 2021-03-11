@@ -1,0 +1,96 @@
+/*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
+
+html {
+  font-size: 16x;
+  line-height: 1.5;
+  font-family: 'helvetica neue', Arial, Helvetica, sans-serif;
+  color: #111;
+  padding: 24px 24px 0;
+  /*  top/ right,left/ bottem
+        top/ right/ bottom/ left
+        top,bottom/ right,left
+        top,right,botom,left
+    */
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #44c8f5;
+  color: white;
+}
+
+::selection {
+  background: #44c8f5;
+  color: white;
+}
+body {
+  max-width: 42em;
+  /* 42 keer de root font size -> 42em */
+  margin: o auto;
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+/*
+    Media Queries
+    ---
+    EXAMPLE Media Queries for Responsive Design.
+    These examples override the primary ('mobile first') styles.
+    Modify as content requires.
+*/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    color: #111;
+    padding: 48px 48px 24px;
+    scroll-behavior: smooth;
+}
+  h1{
+    font-size: 58px;
+    line-height: 64px;
+  }
+
+}
+
+/* Large devices (landscape tablets, desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
